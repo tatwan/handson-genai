@@ -1,1 +1,1 @@
-# handson-genai
+# Hands-on ML and GenAI
