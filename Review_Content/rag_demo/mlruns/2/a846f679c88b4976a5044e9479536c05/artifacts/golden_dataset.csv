@@ -1,0 +1,9 @@
+question,ground_truth
+What is Byte Pair Encoding (BPE)?,BPE is a data compression technique that iteratively replaces the most frequent pair of bytes/symbols with a new symbol. It's used for subword tokenization in NLP tasks like machine translation.
+What complexity result did Kozma and Voderholzer prove about optimal pair encoding?,"They proved that optimal pair encoding is APX-complete, meaning it's unlikely to admit a polynomial-time approximation scheme unless P=NP."
+What is the distributional hypothesis in NLP?,"Words that appear in similar contexts tend to have similar meanings. This principle, suggested by Harris (1954), underlies modern word embeddings."
+What is the Vector Space Model (VSM)?,"The VSM represents words and documents as vectors in high-dimensional space, enabling mathematical operations like cosine similarity for information retrieval. Generally attributed to Salton (1975)."
+Who introduced the GloVe word embedding model and when?,GloVe (Global Vectors for Word Representation) was introduced by Pennington et al. in 2014.
+What is the main contribution of Neural Network Language Models (NNLMs)?,"NNLMs, pioneered by Bengio et al. (2003), reframed language modeling as unsupervised learning and introduced embedding layers that project words into dense vector spaces."
+What benchmark is used to evaluate text embedding models across multiple languages?,The Massive Text Embedding Benchmark (MTEB) evaluates embedding models across multiple languages and diverse NLP tasks.
+What is the key advantage of subword tokenization in neural machine translation?,"Subword tokenization (like BPE) enables open-vocabulary translation, handling rare words and achieving better compression while maintaining translation quality."
