@@ -1,0 +1,497 @@
+from_city,to_city,price,duration
+New York,Beijing,612.06,686
+Beijing,Sydney,1662.68,500
+Dubai,Hong Kong,1413.45,610
+Moscow,Barcelona,425.28,80
+Hong Kong,Chicago,1711.27,847
+Paris,Madrid,1750.38,803
+Paris,Rome,1541.64,149
+Madrid,Vienna,1420.26,504
+Toronto,San Francisco,740.75,887
+Rome,London,1238.65,332
+Toronto,Sydney,766.97,193
+Paris,Toronto,740.73,194
+Beijing,Singapore,1153.42,306
+Sydney,Madrid,249.66,99
+Beijing,Barcelona,194.35,452
+San Francisco,London,1578.88,164
+Hong Kong,London,951.86,777
+Barcelona,Dubai,646.86,829
+Amman,Berlin,1967.84,510
+Barcelona,Amman,909.99,404
+London,Berlin,799.63,869
+San Francisco,New York,596.01,705
+Moscow,Rome,1629.12,292
+Dubai,Beijing,475.3,663
+Tokyo,Moscow,259.3,525
+Moscow,Chicago,1634.53,609
+Sydney,Houston,1786,827
+Istanbul,Tokyo,1617.01,206
+Madrid,Mumbai,1324.55,315
+Rome,Mumbai,1741.12,155
+Rome,Chicago,789.44,743
+Barcelona,Toronto,1335.16,104
+London,Rome,381.47,878
+Barcelona,Istanbul,914.21,63
+Berlin,London,1441.16,288
+Istanbul,Paris,774.21,659
+Beijing,San Francisco,1521.02,295
+Barcelona,Sydney,1003.24,851
+Mumbai,London,1451.88,799
+Madrid,Seoul,1557.98,615
+Barcelona,Hong Kong,370.64,652
+New York,San Francisco,472.35,854
+Madrid,New York,901.2,638
+Bangkok,Vienna,1497.9,481
+Bangkok,Vienna,306.9,829
+Toronto,Singapore,1173.88,509
+Mumbai,New York,1374,785
+Tokyo,Houston,1184.08,765
+Barcelona,Rome,1251.81,496
+Amsterdam,New York,1108.39,868
+Rome,Paris,1984.34,529
+Vienna,Istanbul,1918.33,512
+Bangkok,Hong Kong,720.27,802
+Berlin,Sydney,1601.38,454
+Tokyo,Dubai,1306.78,870
+Paris,Seoul,705.05,242
+Beijing,San Francisco,1511.68,141
+Toronto,Mumbai,649.41,833
+Tokyo,Beijing,1714.16,152
+Toronto,Sydney,1654.09,75
+Berlin,Seoul,1943.61,464
+Dubai,Sydney,801.74,503
+Toronto,Amsterdam,850.23,331
+San Francisco,New York,467.01,127
+Barcelona,Singapore,1703.12,686
+Rome,San Francisco,1140.03,642
+Amsterdam,San Francisco,476.03,633
+Bangkok,Seoul,1215.5,480
+Berlin,Madrid,822.06,731
+Paris,Hong Kong,1692.83,384
+Houston,San Francisco,1863.52,693
+Amman,Seoul,1518.2,79
+Sydney,Tokyo,1790.79,251
+Bangkok,Hong Kong,1251.27,357
+Moscow,Paris,1510.43,327
+Los Angeles,Vienna,997.87,661
+Sydney,Chicago,810.9,761
+Seoul,Istanbul,308.22,488
+Paris,Beijing,1749.1,405
+Houston,Beijing,1813.56,134
+Vienna,Beijing,1198.21,779
+Amman,Los Angeles,994.17,857
+New York,Hong Kong,218.23,780
+Istanbul,Houston,852.89,881
+Dubai,Seoul,1140.66,836
+Moscow,New York,1817.28,128
+Mumbai,Berlin,1332.9,548
+Istanbul,London,1180.7,255
+Tokyo,Toronto,1576.37,210
+Seoul,Dubai,1117.63,384
+Rome,Los Angeles,789.47,187
+Singapore,Sydney,486.25,73
+Rome,Chicago,1995.18,211
+Moscow,Mumbai,692.98,674
+Vienna,Mumbai,726.45,279
+Seoul,Barcelona,1357.52,587
+Sydney,Amsterdam,1955,236
+Singapore,Beijing,1080.55,839
+Beijing,Moscow,1307.32,343
+London,Singapore,794.06,228
+Istanbul,Berlin,1035.26,352
+Hong Kong,Bangkok,237.53,739
+Barcelona,Vienna,1466.1,211
+Istanbul,Tokyo,705.21,177
+Los Angeles,Amman,931.01,432
+Mumbai,Vienna,1835.83,494
+London,Mumbai,764.38,342
+San Francisco,Istanbul,454.53,221
+Seoul,Madrid,457.53,678
+Singapore,Amsterdam,895.6,195
+Vienna,Amman,1201.2,378
+Moscow,Hong Kong,688.08,583
+San Francisco,Istanbul,1463.85,217
+Mumbai,Houston,1803.46,87
+Mumbai,Paris,1835.58,533
+Moscow,Hong Kong,1510.24,334
+Istanbul,San Francisco,1845.78,623
+New York,Madrid,1110.53,752
+Madrid,Seoul,791.69,748
+Madrid,Toronto,451.29,225
+Toronto,Tokyo,996.99,141
+Hong Kong,Amsterdam,865.23,594
+Amsterdam,Madrid,583.02,647
+Moscow,Dubai,1166.43,297
+Hong Kong,Paris,986.35,620
+Amman,Berlin,1125.18,645
+Paris,Mumbai,730.66,740
+Seoul,Vienna,1605.65,307
+Chicago,Berlin,1678.1,638
+Chicago,Singapore,914.3,463
+Houston,Barcelona,678.28,110
+Sydney,Amsterdam,1046.47,881
+Berlin,Toronto,1504.26,879
+Hong Kong,Barcelona,321.08,788
+San Francisco,Seoul,1108.14,338
+Madrid,Dubai,538.54,319
+Beijing,Tokyo,525.06,751
+Hong Kong,Rome,513.78,851
+Hong Kong,Bangkok,1169.4,460
+Mumbai,Dubai,1573.59,261
+Vienna,Rome,1280.9,593
+Tokyo,Hong Kong,969.2,786
+Beijing,Mumbai,1542.08,740
+Paris,Los Angeles,390.34,297
+Beijing,Moscow,1871.6,627
+Amman,Istanbul,676.51,155
+Mumbai,Moscow,1655.9,460
+Vienna,Chicago,937.94,542
+Mumbai,Beijing,1368.54,673
+Mumbai,Berlin,1802.75,203
+Chicago,Seoul,801.45,67
+Singapore,Sydney,1115.51,91
+Amman,Barcelona,196.83,762
+Mumbai,San Francisco,1087.28,146
+Singapore,Tokyo,1243.52,469
+Moscow,Amsterdam,1315.42,487
+Toronto,Chicago,618.47,837
+Paris,Los Angeles,1998.74,809
+Beijing,Singapore,439.7,326
+Amsterdam,Seoul,1197.78,862
+Madrid,Beijing,1964.41,817
+Paris,Moscow,480.07,138
+Mumbai,San Francisco,510.09,279
+Madrid,Istanbul,1759.49,614
+London,Berlin,282.14,133
+Hong Kong,Berlin,1706.82,809
+Paris,San Francisco,1553.32,737
+Bangkok,Hong Kong,341,224
+Seoul,Hong Kong,1898.11,392
+Amsterdam,Bangkok,1057.81,845
+Hong Kong,Chicago,349.05,590
+Tokyo,Berlin,346.16,609
+Moscow,New York,1275.29,200
+Singapore,New York,1560.69,167
+Los Angeles,Vienna,411.43,483
+Toronto,Houston,981.51,151
+Bangkok,San Francisco,387.3,744
+London,Toronto,1874.4,154
+Singapore,Toronto,1177.65,475
+Berlin,Toronto,531.38,308
+Barcelona,Rome,1500.53,736
+Singapore,Paris,647.22,247
+Houston,San Francisco,1590.23,583
+Mumbai,Madrid,1435.09,777
+Paris,Amsterdam,1793.12,517
+Bangkok,San Francisco,918.63,78
+Beijing,Dubai,1910.57,731
+Bangkok,London,571.81,859
+Paris,Amsterdam,852.78,222
+Houston,Toronto,351.23,673
+Paris,Rome,1525.05,403
+Los Angeles,Houston,1243.49,279
+New York,Madrid,1981.84,343
+Vienna,Rome,967.71,127
+Seoul,Istanbul,624.65,855
+Los Angeles,Istanbul,1219.74,268
+Amman,Rome,1732.33,822
+Barcelona,Moscow,750.82,156
+Amman,Dubai,989.13,471
+Tokyo,Seoul,1621.02,329
+Seoul,Berlin,916.49,613
+Los Angeles,Sydney,210.95,819
+Sydney,Beijing,1528.53,707
+Mumbai,Hong Kong,1704.41,95
+San Francisco,Seoul,1072.23,271
+Singapore,Berlin,734.89,73
+Toronto,Houston,1451.05,202
+Vienna,Rome,150.36,580
+New York,Singapore,1934.82,82
+Berlin,Sydney,822.61,738
+Madrid,Tokyo,250.83,652
+Berlin,San Francisco,362.2,795
+New York,Houston,226.55,171
+Sydney,Moscow,323.52,434
+Seoul,Madrid,1486.28,679
+Istanbul,Barcelona,808.65,735
+Berlin,Paris,1438.45,383
+Singapore,London,511.9,817
+Vienna,Singapore,865.25,267
+Paris,Singapore,1952.75,596
+Paris,Sydney,510.15,653
+London,Houston,1300.47,177
+Seoul,Istanbul,638.08,590
+Madrid,Los Angeles,1249.39,124
+Dubai,Sydney,1040.17,292
+Amsterdam,Bangkok,431.72,235
+Seoul,Tokyo,542,268
+Barcelona,Hong Kong,983.8,829
+Houston,Amman,383.23,282
+Dubai,London,1776.31,551
+New York,Beijing,1060.85,233
+Chicago,Singapore,500.68,403
+Hong Kong,Sydney,1773.66,800
+Los Angeles,Istanbul,609.67,857
+Los Angeles,Mumbai,1842.51,645
+Tokyo,Bangkok,1684.29,675
+New York,Barcelona,1974.44,567
+Bangkok,Hong Kong,1624.95,598
+Beijing,Seoul,1019.16,881
+Hong Kong,Chicago,1889,461
+Amsterdam,Tokyo,219.5,698
+Vienna,London,301.16,875
+Moscow,Seoul,1274.66,545
+Madrid,Hong Kong,1299.33,183
+Istanbul,Dubai,680.26,67
+Madrid,New York,1521.84,677
+Paris,Beijing,303.12,591
+Singapore,Barcelona,976.53,234
+Hong Kong,Los Angeles,1746.47,157
+Paris,Barcelona,1663.88,99
+New York,Houston,983.41,635
+Amman,London,332.06,74
+Vienna,Toronto,307.64,858
+Houston,Tokyo,1631.02,752
+New York,Beijing,812.35,661
+Amsterdam,Barcelona,1165.91,896
+Toronto,Mumbai,819.57,468
+San Francisco,Houston,1778.74,761
+New York,Seoul,1895.14,276
+Seoul,Istanbul,1802.95,615
+Madrid,Amsterdam,269.05,568
+Berlin,San Francisco,1995.83,167
+Amman,Istanbul,767.39,221
+Toronto,Singapore,218.04,339
+Hong Kong,New York,785.16,368
+Moscow,Seoul,1154.65,322
+Toronto,London,474.15,191
+Istanbul,London,217.78,739
+Los Angeles,Istanbul,254.16,473
+Madrid,Dubai,1891.85,517
+Mumbai,Madrid,700.64,759
+San Francisco,Barcelona,927.96,847
+Madrid,Toronto,423.03,636
+Moscow,Rome,464.38,290
+Amsterdam,Houston,232.22,773
+Toronto,Los Angeles,412.97,296
+Houston,London,577.59,179
+Madrid,New York,483.95,259
+Mumbai,Amsterdam,1940.16,819
+Hong Kong,Vienna,945.89,578
+Singapore,Berlin,739.64,92
+Mumbai,Rome,1683.52,145
+Beijing,London,382.65,467
+Amman,Moscow,483.57,836
+New York,London,1139.03,760
+Madrid,Tokyo,1016.98,182
+Houston,Paris,1643.35,398
+Vienna,Berlin,356.88,237
+New York,Madrid,1611.77,279
+Chicago,Hong Kong,1391.89,523
+Toronto,Sydney,491.07,813
+Tokyo,Seoul,740.95,714
+Vienna,Berlin,1320.01,667
+Berlin,San Francisco,1289.35,677
+Berlin,Houston,1702.07,678
+Amman,London,972.24,682
+Sydney,Barcelona,574.37,478
+Istanbul,Los Angeles,695.06,561
+Mumbai,Berlin,821.54,267
+Hong Kong,Barcelona,492.07,134
+Amsterdam,Rome,1770.56,783
+Beijing,Hong Kong,1552.37,245
+Barcelona,Hong Kong,378.5,452
+Barcelona,New York,218.06,257
+Hong Kong,Rome,1807.71,755
+Vienna,Amsterdam,1935,884
+Rome,Moscow,1352.97,458
+Madrid,Los Angeles,438.43,278
+Chicago,Amsterdam,1845.94,440
+Amsterdam,Moscow,669.26,170
+Amman,Singapore,1529.22,602
+Istanbul,Paris,556.77,156
+Dubai,Mumbai,1591.39,407
+Berlin,Rome,1463.6,235
+Singapore,Hong Kong,665.93,847
+Tokyo,Hong Kong,1114.06,366
+Seoul,San Francisco,1712.44,114
+Madrid,Dubai,219.63,94
+Chicago,Berlin,1518.97,527
+Beijing,Amman,1494.95,407
+Paris,Berlin,890.07,262
+Seoul,Sydney,401.87,348
+Amman,Madrid,1909.69,653
+Seoul,Berlin,1807.69,829
+Amsterdam,Seoul,1208.24,83
+Mumbai,Houston,1978.83,680
+Moscow,Rome,1661.25,848
+Sydney,San Francisco,153.95,490
+Hong Kong,Singapore,469.71,602
+Chicago,Moscow,1538.25,416
+Rome,Toronto,1024.5,767
+Singapore,Mumbai,1159.33,590
+Paris,Los Angeles,1323.68,743
+London,Madrid,1057.72,307
+San Francisco,Berlin,954.3,876
+Moscow,Istanbul,1808.16,195
+Los Angeles,Amman,1063.44,440
+Barcelona,Istanbul,1327.15,725
+Amman,Berlin,594.46,851
+London,Berlin,259.43,838
+Beijing,Madrid,1230.5,304
+Bangkok,Singapore,1798.46,609
+Dubai,Amman,1811.71,239
+Istanbul,Paris,1174.77,677
+Moscow,Istanbul,1025.77,649
+New York,Bangkok,972.37,151
+London,Amman,1033.79,698
+Rome,Beijing,1880.06,694
+Toronto,Sydney,763.81,848
+Mumbai,Tokyo,438.62,385
+San Francisco,Paris,1776.89,516
+Barcelona,Rome,1636.03,788
+Hong Kong,Madrid,1971.58,610
+Istanbul,Los Angeles,504.91,825
+Singapore,London,1262.92,672
+London,Madrid,363.22,193
+Los Angeles,Seoul,1909.76,377
+Istanbul,Vienna,1591.67,473
+Los Angeles,Seoul,607.55,592
+Mumbai,Madrid,1697.19,765
+Sydney,New York,1980.96,878
+Paris,London,1188.35,868
+Sydney,Amman,751.81,691
+Beijing,Seoul,1045.09,654
+Moscow,New York,864.23,747
+Mumbai,Amsterdam,512.42,810
+Seoul,Paris,821.93,532
+Amsterdam,Bangkok,1196.78,79
+Rome,Istanbul,1162.39,381
+Toronto,Bangkok,686.76,145
+Tokyo,New York,1884.37,358
+Beijing,New York,1715.53,424
+Berlin,Seoul,178.09,77
+Hong Kong,Los Angeles,431.92,674
+Los Angeles,Madrid,1657.11,617
+Chicago,Berlin,1449.91,525
+Toronto,Madrid,1364.98,833
+London,Vienna,1084.92,223
+Los Angeles,Toronto,958.4,707
+Dubai,Sydney,398.2,411
+Mumbai,Singapore,464.76,216
+New York,Chicago,1747.64,390
+Sydney,Rome,1087.63,467
+Berlin,Hong Kong,1745.75,496
+London,Madrid,1041.82,770
+Seoul,Rome,1991.1,742
+New York,London,1314.35,261
+Mumbai,Istanbul,279.15,507
+San Francisco,Madrid,1774.18,244
+Madrid,San Francisco,579.33,876
+Sydney,Vienna,1868.17,345
+London,Rome,300.94,196
+Seoul,London,1965.24,99
+Istanbul,New York,1959.85,62
+Amman,London,664.14,498
+Dubai,Vienna,1397.54,738
+Mumbai,Rome,389.06,376
+Tokyo,Chicago,226.76,324
+Madrid,Istanbul,1668.28,570
+Seoul,Beijing,779.59,596
+Tokyo,Los Angeles,751.95,780
+London,Tokyo,1181,344
+Moscow,Vienna,863.92,675
+San Francisco,Istanbul,1338.67,293
+Istanbul,New York,1221.67,885
+Mumbai,Singapore,1629.84,714
+Vienna,Chicago,515.85,563
+Istanbul,Rome,578.82,691
+Toronto,New York,1960.06,292
+Bangkok,Chicago,1799.74,303
+Rome,New York,1746.64,227
+New York,Moscow,679.7,294
+Vienna,Singapore,1946.55,244
+Houston,Sydney,1351.36,182
+Seoul,Amsterdam,918.24,369
+Amsterdam,London,432.63,300
+Berlin,New York,1581.34,354
+Seoul,Berlin,1544.86,581
+Istanbul,New York,1635.54,792
+Beijing,Singapore,1617.01,102
+Seoul,San Francisco,751.94,891
+San Francisco,Toronto,1395.93,680
+Istanbul,Seoul,987.88,459
+Beijing,Vienna,349.38,624
+San Francisco,Istanbul,265.54,856
+New York,Vienna,1361.47,737
+San Francisco,Los Angeles,1340.92,80
+Paris,Mumbai,677.09,196
+Mumbai,Vienna,1186.48,834
+Mumbai,Toronto,1874.13,893
+Amsterdam,Mumbai,1284.67,202
+Madrid,Barcelona,1233.94,111
+London,Sydney,1094.09,854
+Hong Kong,Chicago,1576.99,461
+Mumbai,New York,1479.34,667
+Bangkok,Barcelona,300.88,258
+Barcelona,Istanbul,1263.42,84
+New York,Chicago,483.53,170
+Istanbul,Vienna,642.85,633
+Hong Kong,Singapore,1867.12,628
+Toronto,Singapore,1117.75,487
+Berlin,New York,275.19,118
+Beijing,Singapore,1787.83,549
+Amman,Amsterdam,1492.85,129
+New York,Barcelona,626.7,524
+Los Angeles,Madrid,1920.47,537
+Madrid,Berlin,1968.29,112
+Moscow,Istanbul,1699.74,435
+Mumbai,Barcelona,420.23,297
+Dubai,Beijing,1739.04,253
+New York,Tokyo,1180.06,194
+San Francisco,Hong Kong,1639.64,612
+Berlin,Rome,1917.41,731
+London,Moscow,863.33,367
+Seoul,Amsterdam,956.99,447
+Moscow,Hong Kong,882.4,644
+Beijing,Seoul,150.73,585
+New York,Hong Kong,765.85,153
+Beijing,Mumbai,1424.42,471
+Singapore,Tokyo,1007.52,777
+Istanbul,Toronto,951.69,211
+Tokyo,Singapore,1953.51,272
+Seoul,Chicago,1279.78,370
+Istanbul,Berlin,387.55,133
+Sydney,Los Angeles,1430.36,464
+Bangkok,Chicago,1377.28,447
+Hong Kong,Istanbul,331.84,309
+Madrid,San Francisco,1689.26,563
+Sydney,San Francisco,1227.83,546
+Toronto,Amman,1668.39,540
+Paris,Chicago,1410.08,799
+Seoul,Berlin,1919.56,252
+Chicago,San Francisco,1058.97,82
+Chicago,Istanbul,551.96,841
+Vienna,Amsterdam,637.2,596
+Tokyo,Singapore,620.61,442
+Toronto,Los Angeles,1102.01,219
+Houston,Istanbul,435.9,727
+Moscow,Mumbai,731.74,362
+New York,Mumbai,1552.74,539
+Singapore,Rome,679.09,81
+Berlin,Beijing,654.7,241
+Seoul,Istanbul,1800.88,94
+Barcelona,Tokyo,1675.66,710
+Istanbul,Dubai,232.41,570
+Istanbul,Seoul,1809.86,345
+Los Angeles,Dubai,1036.17,399
+Toronto,Singapore,952.03,550
+San Francisco,Chicago,1680.33,528
+Singapore,London,544.45,350
+Singapore,Beijing,442.19,851
+Barcelona,London,1125.9,149
+Amman,London,1113.81,839
+Beijing,Madrid,787.56,659
+Tokyo,New York,1593.85,558
+Barcelona,Tokyo,1500.07,126
