@@ -40,9 +40,10 @@ Participants will gain practical experience with modern LLMs, fine-tuning strate
 • Evolution of generative models:
   - Autoencoders and latent space representation
   - Variational Autoencoders (VAEs) and probabilistic sampling
+  - Diffusion Models for high-fidelity image generation
 • **Hands-on Labs:**
   - Autoencoders with MNIST dataset
-  - Training a VAE to generate images
+  - Introduction to Diffusion Models
 
 ---
 
@@ -62,12 +63,14 @@ Participants will gain practical experience with modern LLMs, fine-tuning strate
   - Open-source: Llama 3, Mistral, Phi-3
 • Model architectures and selection criteria  
 • Hugging Face ecosystem and model hub  
+• Multimodal Models (Vision-Language Models)
 • Building interactive UIs with Gradio  
 • **Hands-on Labs:**
   - Using OpenAI and Ollama APIs
   - Exploring Hugging Face model hub
   - Comparing BERT and GPT models
   - Creating interactive UIs with Gradio
+  - Exploring Multimodal Models
 
 #### Module 06: Prompting Techniques and Agentic AI
 • Advanced prompting strategies:
@@ -116,12 +119,13 @@ Participants will gain practical experience with modern LLMs, fine-tuning strate
   - Embedding generation and storage
   - Retrieval strategies and context injection
 • RAG evaluation and observability:
+  - Evaluating RAG with LLM-as-a-judge
   - MLflow for LLM tracking
   - Quality metrics and debugging
 • **Hands-on Labs:**
   - RAG with LangChain and Chroma
   - RAG with LlamaIndex
-  - RAG evaluation with MLflow
+  - RAG evaluation with LLM-as-a-judge and MLflow
 
 #### Module 09: Model Optimization and Deployment
 • Production challenges: memory, cost, latency  
