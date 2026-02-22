@@ -134,7 +134,7 @@ Each step solves a clear limitation of the previous approach. This progression e
 | Latent space and compressed representations | Module 04 (word embeddings), Module 08 (vector databases for RAG) |
 | Probabilistic sampling and temperature | Module 05 (LLM token decoding), Module 07 (sampling techniques lab) |
 | Encoder-decoder architecture | Module 05 (Transformer internals, BERT encoder, GPT decoder) |
-| VAE as image encoder/decoder | Module 05 (Stable Diffusion multimodal lab) |
+| VAE as image encoder/decoder | Module 05 (vision-language models, understanding image + text representations) |
 | Representation learning | Module 07 (fine-tuning: what does the model already know?) |
 
 ---
