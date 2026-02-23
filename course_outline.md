@@ -1,13 +1,13 @@
 # Hands-On Generative Artificial Intelligence
 
-**Last Updated:** February 6, 2026  
+**Last Updated:** February 23, 2026  
 **Duration:** 3 Days
 
 ## Course Overview
 
 This intensive three-day training course is designed for developers, data engineers/analysts, and tech product owners. It combines theory with extensive hands-on practice to teach participants how to build production-ready generative AI applications using state-of-the-art models and techniques.
 
-Participants will gain practical experience with modern LLMs, fine-tuning strategies (including LoRA/PEFT), retrieval-augmented generation (RAG), AI agents, and production optimization techniques. The course includes 27 hands-on labs covering the complete lifecycle from model development to deployment.
+Participants will gain practical experience with modern LLMs, fine-tuning strategies (including LoRA/PEFT), retrieval-augmented generation (RAG), AI agents, and production optimization techniques. The course includes 32 hands-on labs covering the complete lifecycle from model development to deployment.
 
 ## Prerequisites
 
@@ -33,7 +33,9 @@ Participants will gain practical experience with modern LLMs, fine-tuning strate
 • Neural network architectures and common patterns  
 • Optimizers, gradient descent, and backpropagation  
 • Deep learning frameworks: TensorFlow and PyTorch  
-• **Hands-on Lab:** Image classification using PyTorch
+• **Hands-on Labs:**
+  - Neural network basics
+  - Image classification using PyTorch
 
 #### Module 03: Overview of Generative AI
 • Introduction to Generative AI and its applications  
@@ -85,31 +87,14 @@ Participants will gain practical experience with modern LLMs, fine-tuning strate
 • **Hands-on Labs:**
   - Systematic prompt optimization
   - Function calling with OpenAI
-  - LangChain function calling
+  - Function calling with LangChain
   - Building ReAct agents
 
 ---
 
-### Day 3: Fine-Tuning, RAG, and Production Optimization
+### Day 3: RAG, Fine-Tuning, and Production Optimization
 
-#### Module 07: Fine-Tuning Large Language Models
-• Transfer learning strategies for LLMs  
-• Parameter-Efficient Fine-Tuning (PEFT):
-  - LoRA (Low-Rank Adaptation)
-  - QLoRA (Quantized LoRA)
-  - Full fine-tuning vs PEFT comparison
-• Catastrophic forgetting and mitigation strategies  
-• Sampling techniques:
-  - Temperature, top-p, top-k
-  - Beam search
-• **Hands-on Labs:**
-  - Transfer learning concepts
-  - Fine-tuning with OpenAI API
-  - Sentiment analysis with DistilBERT
-  - Sampling techniques exploration
-  - LoRA fine-tuning for healthcare applications
-
-#### Module 08: Retrieval-Augmented Generation (RAG)
+#### Module 07: Retrieval-Augmented Generation (RAG)
 • RAG architecture and use cases  
 • Vector databases and semantic search:
   - Embeddings for document retrieval
@@ -127,12 +112,31 @@ Participants will gain practical experience with modern LLMs, fine-tuning strate
   - RAG with LlamaIndex
   - RAG evaluation with LLM-as-a-judge and MLflow
 
+#### Module 08: Fine-Tuning Large Language Models
+• Transfer learning strategies for LLMs  
+• Parameter-Efficient Fine-Tuning (PEFT):
+  - LoRA (Low-Rank Adaptation)
+  - QLoRA (Quantized LoRA)
+  - Full fine-tuning vs PEFT comparison
+• Catastrophic forgetting and mitigation strategies  
+• Sampling techniques:
+  - Temperature, top-p, top-k
+  - Beam search
+• **Hands-on Labs:**
+  - Transfer learning concepts
+  - Sentiment analysis with DistilBERT
+  - Fine-tuning with OpenAI API
+  - Summarization fine-tuning
+  - Sampling techniques exploration
+  - LoRA fine-tuning for healthcare applications
+
 #### Module 09: Model Optimization and Deployment
 • Production challenges: memory, cost, latency  
 • Optimization techniques:
   - Knowledge distillation (teacher-student training)
   - Model pruning (structured and unstructured)
   - Quantization (FP16, INT8, INT4, GPTQ, AWQ)
+• Benchmarking and performance evaluation  
 • Deployment strategies:
   - Cloud deployment (GPU/CPU)
   - Edge deployment
@@ -142,6 +146,7 @@ Participants will gain practical experience with modern LLMs, fine-tuning strate
   - Knowledge distillation
   - Model pruning
   - Quantization for deployment
+  - Benchmarking optimized models
 
 #### Module 10: Capstone Project
 • Building a production-ready dialogue system with RAG  
@@ -163,8 +168,8 @@ Participants will gain practical experience with modern LLMs, fine-tuning strate
 • Module 06: Prompting Techniques and Agentic AI
 
 **Day 3**
-• Module 07: Fine-Tuning Large Language Models  
-• Module 08: Retrieval-Augmented Generation (RAG)  
+• Module 07: Retrieval-Augmented Generation (RAG)  
+• Module 08: Fine-Tuning Large Language Models  
 • Module 09: Model Optimization and Deployment  
 • Module 10: Capstone Project
 
@@ -184,7 +189,7 @@ By the end of this course, you will be able to:
 
 ## Course Features
 
-• **27 Hands-on Labs:** Practical notebooks covering every major topic  
+• **32 Hands-on Labs:** Practical notebooks covering every major topic  
 • **Production-Focused:** Learn deployment and optimization techniques  
 • **Modern Tools:** Work with 2026 industry-standard frameworks  
 • **Complete Lifecycle:** From model selection to production deployment  
