@@ -123,7 +123,7 @@ handson-genai/
 #### Module 4: NLP - Understanding Language as Data
 - Tokenization and text preprocessing
 - Vectorization and embeddings (Word2vec)
-- **Labs:**
+- __Labs:__
   - `01_intro_to_nlp.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_04_NLP/01_intro_to_nlp.ipynb)
   - `02_tokenization.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_04_NLP/02_tokenization.ipynb)
   - `03_embeddings.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_04_NLP/03_embeddings.ipynb)
