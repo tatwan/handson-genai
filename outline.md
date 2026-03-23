@@ -36,7 +36,7 @@ After this course, participants will be able to:
 
 ## Outline
 
-### Foundations of AI and Machine Learning
+### Module 01: Foundations of AI and Machine Learning
 * Machine Learning vs rule-based programming.
 * Supervised and unsupervised learning. Examples and applications in real-world scenarios.
 * An overview of ML model development and evaluation:
@@ -44,27 +44,27 @@ After this course, participants will be able to:
     * Feature engineering
     * Overfit
     * Model evaluation metrics
-* Hands-on Lab (optional): Training and evaluating a classifier.
+* Hands-on Lab: Training and evaluating a classifier.
 
-### Deep Learning Primer
+### Module 02: Deep Learning Primer
 * Fundamental concepts of deep learning
 * Data types and volumes
 * Overview of neural network structures and common architectures.
 * Optimizers, gradient descent, and backpropagation algorithms.
     * Optional demo: TensorFlow playground
 * Deep learning frameworks: TensorFlow and PyTorch
-* Hands-on Lab: Image classification using TensorFlow or PyTorch.
+* Hands-on Labs: Neural network basics and Image classification using PyTorch.
 
-### Overview of Generative AI
+### Module 03: Overview of Generative AI
 * Introduction to Generative AI and its applications.
 * Basic principles of generative models and their architectural components.
 * Demo: a simple example of probabilistic sampling to create simulated data
 * Autoencoders & Variational Autoencoders: latent space, representation learning, and sampling techniques.
 * Hands-on Lab: VAE & Autoencoders: Understanding latent space and generate fake images of handwritten digits with VAE.
 * Diffusion Models: Introduction and their role in modern generative AI applications.
-    * Hands-on Lab: Generating images using a pre-trained diffusion model pipeline from Huggingface.
+* Hands-on Lab: Generating images using a pre-trained diffusion model pipeline from Huggingface.
 
-### NLP: Understanding Language as Data
+### Module 04: NLP - Understanding Language as Data
 * Introduction to NLP techniques and applications
     * Tokenization: BPE and WordPiece tokenization
     * Vectorization. Bag-of-Words and its limitations
@@ -73,7 +73,7 @@ After this course, participants will be able to:
     * Similarity search
 * Hands-on Lab: Find similar documents modern embedding models
 
-### Large Language Models (LLMs)
+### Module 05: Large Language Models (LLMs)
 * NLP and text generation before the introduction of pre-trained LLMs.
 * Overview of pre-trained models:
     * BERT (encoder-focused, classification tasks)
@@ -88,8 +88,9 @@ After this course, participants will be able to:
     * Multimodal LLMs: vision-language models and image-text reasoning
 * Demo: Working with multimodal inputs using Gemini and GPT
 * Working with LLM APIs and OpenAI API Compatibility
+* Hands-on Lab: Building interactive UIs with Gradio
 
-### Language generation tasks, Prompting Techniques, and Agentic AI
+### Module 06: Prompting Techniques and Agentic AI
 * Generative tasks:
     * Text completion
     * Dialogue systems
@@ -101,7 +102,7 @@ After this course, participants will be able to:
     * System prompts and instruction following
     * Structured output: JSON mode and function schemas
 * Responsible Prompting: understanding prompt injection, prompt leaking, and prompt hijacking, including risks and mitigation strategies
-* Hands-on Lab (no code): Prompting techniques for summarization, code generation and text labelling
+* Hands-on Lab: Prompting techniques for summarization, code generation and text labelling
 * Agentic AI
     * Tool Use and Function Calling: enabling LLMs to interact with external systems
     * Introduction to Agentic AI: multi-step reasoning and autonomous task execution
@@ -109,7 +110,16 @@ After this course, participants will be able to:
     * Overview of the MCP (Model Context Protocol) standard for tool and context integration
 * Hands-on Lab: Function calling and building simple agent using smolagents or LangGraph
 
-### Adapting Pre-trained Models for Specific NLP Tasks
+### Module 07: Retrieval-Augmented Generation (RAG)
+* Chunking Strategies & Embedding model selection
+* Vector Databases
+* Agentic RAG
+* RAG Evaluation and Observability
+    * Automated evaluation techniques including LLM-as-a-Judge
+    * Measuring retrieval quality, answer faithfulness, and context relevance
+* Hands-on Lab: Building an end-to-end RAG pipeline
+
+### Module 08: Fine-Tuning Large Language Models
 * Transfer learning and full fine-tuning strategies for LLMs.
 * Considerations for cost and potential catastrophic forgetfulness.
 * Using Hugging Face's transformers library for fine-tuning
@@ -118,14 +128,18 @@ After this course, participants will be able to:
 * Hands-on Lab/Demo: Fine-tuning Small Language Model (SLM) using LoRA/QLoRA
 * Sampling techniques (Temperature, Top-P, Top-K, Beam Search)
 * Hands-on Lab: Customize Generative LLM Output with sampling parameters
+* Hands-on Lab: Fine-Tuning with OpenAI
 
-### Retrieval-Augmented Generation (RAG)
-* Chunking Strategies & Embedding model selection
-* Vector Databases
-* Agentic RAG
-* RAG Evaluation and Observability
-    * Automated evaluation techniques including LLM-as-a-Judge
-    * Measuring retrieval quality, answer faithfulness, and context relevance
-* Hands-on Lab: Building an end-to-end RAG pipeline
+### Module 09: Model Optimization and Deployment
+* Production challenges: memory, cost, latency
 * Strategies for deploying generative models:
-    * Quantization, pruning, and distillation techniques
+    * Knowledge distillation (teacher-student training)
+    * Model pruning (structured and unstructured)
+    * Quantization (FP16, INT8, INT4, GPTQ, AWQ)
+* Benchmarking and performance evaluation
+* Hands-on Labs: Knowledge distillation, Model pruning, Quantization, and Benchmarking
+
+### Module 10: Capstone Project
+* Building a production-ready dialogue system with RAG
+* Integrating multiple techniques learned throughout the course
+* Hands-on Lab: Capstone Dialogue System
