@@ -72,10 +72,10 @@ handson-genai/
 ├── Module_08_Fine_Tuning/         # Day 3
 │   ├── 01_transfer_learning.ipynb
 │   ├── 02_sentiment_analysis.ipynb
-│   ├── 02_fine_tuning_openai.ipynb
 │   ├── 03_summarization.ipynb
 │   ├── 04_sampling_techniques.ipynb
-│   └── 05_Fine_Tuning_LLM_Healthcare.ipynb
+│   ├── 05_Fine_Tuning_LLM_Healthcare.ipynb
+│   └── 06_fine_tuning_openai.ipynb
 ├── Module_09_Optimization/        # Day 3 
 │   ├── 01_intro_to_optimization.ipynb
 │   ├── 02_knowledge_distillation.ipynb
@@ -175,10 +175,10 @@ handson-genai/
 - **Labs:**
   - `01_transfer_learning.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/01_transfer_learning.ipynb)
   - `02_sentiment_analysis.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/02_sentiment_analysis.ipynb)
-  - `02_fine_tuning_openai.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/02_fine_tuning_openai.ipynb)
   - `03_summarization.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/03_summarization.ipynb)
   - `04_sampling_techniques.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/04_sampling_techniques.ipynb)
   - `05_Fine_Tuning_LLM_Healthcare.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/05_Fine_Tuning_LLM_Healthcare.ipynb)
+  - `06_fine_tuning_openai.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/06_fine_tuning_openai.ipynb)
 
 #### Module 9: Model Optimization and Deployment 
 - Production challenges: memory, cost, latency
@@ -228,10 +228,10 @@ handson-genai/
 | **Module 07** | 03 · RAG Evaluation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_07_RAG/03_rag_evaluation.ipynb) |
 | **Module 08** | 01 · Transfer Learning | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/01_transfer_learning.ipynb) |
 | **Module 08** | 02 · Sentiment Analysis | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/02_sentiment_analysis.ipynb) |
-| **Module 08** | 02 · Fine-Tuning with OpenAI | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/02_fine_tuning_openai.ipynb) |
 | **Module 08** | 03 · Summarization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/03_summarization.ipynb) |
 | **Module 08** | 04 · Sampling Techniques | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/04_sampling_techniques.ipynb) |
 | **Module 08** | 05 · Fine-Tuning LLM Healthcare | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/05_Fine_Tuning_LLM_Healthcare.ipynb) |
+| **Module 08** | 06 · Fine-Tuning with OpenAI | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/06_fine_tuning_openai.ipynb) |
 | **Module 09** | 01 · Intro to Optimization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_09_Optimization/01_intro_to_optimization.ipynb) |
 | **Module 09** | 02 · Knowledge Distillation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_09_Optimization/02_knowledge_distillation.ipynb) |
 | **Module 09** | 03 · Pruning | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_09_Optimization/03_pruning.ipynb) |

@@ -9,7 +9,7 @@
 
 Module 07 showed you how to retrieve external knowledge and inject it into prompts. This module goes deeper: instead of changing what the model *sees*, fine-tuning changes what the model *knows*. You adapt a pre-trained model's weights to a new domain, making it inherently better at specific tasks rather than relying on prompt engineering alone.
 
-The module builds a complete mental model before touching training code. NB01 establishes the conceptual foundation — why transfer learning works, when to use full fine-tuning vs. LoRA vs. prompt engineering, and how catastrophic forgetting happens. NB04 completes the theory with sampling techniques that control how a trained model generates text. The three hands-on notebooks (NB02–NB03 and NB05) demonstrate fine-tuning at three different scales and API levels: a small BERT classifier on sentiment, a seq2seq T5 model on dialogue summarization, and a small LLM (TinyLlama) with LoRA adapters and 4-bit quantization. NB02-OpenAI shows the managed, API-based alternative where you upload data and OpenAI handles the training.
+The module builds a complete mental model before touching training code. NB01 establishes the conceptual foundation — why transfer learning works, when to use full fine-tuning vs. LoRA vs. prompt engineering, and how catastrophic forgetting happens. NB04 completes the theory with sampling techniques that control how a trained model generates text. Three hands-on notebooks (NB02, NB03, and NB05) demonstrate fine-tuning at different scales: a small BERT classifier on sentiment, a seq2seq T5 model on dialogue summarization, and a small LLM (TinyLlama) with LoRA adapters and 4-bit quantization. NB06 — placed last — shows the managed, API-based alternative (OpenAI fine-tuning) as a contrast after you fully understand what happens under the hood.
 
 By the end of this module you understand not just *how* to fine-tune, but *why* you would (or wouldn't) fine-tune compared to prompt engineering, RAG, or in-context learning.
 
@@ -104,10 +104,10 @@ By the end of this module you will be able to:
 
 ---
 
-### 📓 02b · OpenAI Fine-Tuning API
+### 📓 06 · OpenAI Fine-Tuning API
 
-**File:** `02_fine_tuning_openai.ipynb`
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/02_fine_tuning_openai.ipynb)
+**File:** `06_fine_tuning_openai.ipynb`
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/06_fine_tuning_openai.ipynb)
 
 **Concepts covered:**
 - OpenAI's managed fine-tuning API: how it differs from local fine-tuning (you upload data, OpenAI trains)
@@ -126,7 +126,7 @@ By the end of this module you will be able to:
 - Side-by-side comparison: base model response vs. fine-tuned model response on held-out medical question
 - Cleanup cell: `client.models.delete()` and `client.files.delete()` to manage costs
 
-> **Key Insight:** The OpenAI fine-tuning API abstracts away all the infrastructure complexity — you never see a GPU or a training loop. The trade-off is that you cannot inspect the model internals, adjust hyperparameters beyond what the API exposes, or use it without billing. Understanding both the managed API (NB02b) and local fine-tuning (NB02a, NB03, NB05) makes you fluent at both ends of the cost/control spectrum.
+> **Key Insight:** The OpenAI fine-tuning API abstracts away all the infrastructure complexity — you never see a GPU or a training loop. The trade-off is that you cannot inspect the model internals, adjust hyperparameters beyond what the API exposes, or use it without billing. By placing this notebook last (NB06), you can appreciate the trade-offs after experiencing local fine-tuning hands-on — making this a contrast, not a shortcut.
 
 ---
 
@@ -224,19 +224,19 @@ By the end of this module you will be able to:
 
 ## The Conceptual Thread
 
-The six notebooks tell a coherent story that ends with a deployed fine-tuned LLM:
+The six notebooks tell a coherent story that ends with a contrast between local and managed fine-tuning:
 
 1. **Concepts (NB01)** establish *why* fine-tuning is possible (transferred representations) and *when* it's appropriate (vs. prompt engineering or RAG). Without this foundation, fine-tuning appears as a black box.
 
-2. **Sentiment analysis (NB02a)** is the simplest case: a pre-trained encoder, frozen or fine-tuned, with a classification head. The full `Trainer` loop, evaluation metrics, and error analysis skills learned here carry into every subsequent fine-tuning task.
+2. **Sentiment analysis (NB02)** is the simplest case: a pre-trained encoder, frozen or fine-tuned, with a classification head. The full `Trainer` loop, evaluation metrics, and error analysis skills learned here carry into every subsequent fine-tuning task.
 
-3. **OpenAI API (NB02b)** shows the managed alternative: no local GPU, no hyperparameters, just data formatting + API calls. Understanding both ends of the spectrum (managed vs. local) is essential for making architectural decisions in production.
+3. **Summarization (NB03)** introduces seq2seq fine-tuning, ROUGE evaluation, and the critical token decoding fix. The same pattern (encoder-decoder + generation) applies to translation, question answering, and instruction following.
 
-4. **Summarization (NB03)** introduces seq2seq fine-tuning, ROUGE evaluation, and the critical token decoding fix. The same pattern (encoder-decoder + generation) applies to translation, question answering, and instruction following.
+4. **Sampling techniques (NB04)** explain how trained models produce text. A fine-tuned model without properly configured sampling often produces repetitive or incoherent output. Knowing temperature, Top-K, and Top-P turns model deployment from guesswork into engineering.
 
-5. **Sampling techniques (NB04)** explain how trained models produce text. A fine-tuned model without properly configured sampling often produces repetitive or incoherent output. Knowing temperature, Top-K, and Top-P turns model deployment from guesswork into engineering.
+5. **LLM fine-tuning with LoRA (NB05)** combines everything: quantization to fit a 1.1B model on free hardware, LoRA to train only 0.28% of parameters, and `SFTTrainer` to handle the training loop. The Ollama export section closes the loop from training to local deployment.
 
-6. **LLM fine-tuning with LoRA (NB05)** combines everything: quantization to fit a 1.1B model on free hardware, LoRA to train only 0.28% of parameters, and `SFTTrainer` to handle the training loop. The Ollama export section closes the loop from training to local deployment.
+6. **OpenAI API (NB06)** — placed last as a deliberate contrast. After experiencing local fine-tuning end-to-end, you can now appreciate the managed alternative: no GPU, no hyperparameters, just data formatting + API calls. Understanding both ends (managed vs. local) is essential for production architectural decisions.
 
 ---
 
@@ -293,15 +293,15 @@ Store keys as **Colab Secrets** (key icon in sidebar) or in a local `.env` file.
 
 ### Run Order
 
-Run notebooks in sequence: **NB01 → NB02a → NB02b → NB03 → NB04 → NB05**. NB01 builds the conceptual foundation that makes the hands-on notebooks understandable. NB02a and NB03 introduce the `Trainer` API at manageable scale. NB02b shows the API-managed alternative. NB04 rounds out the generation theory. NB05 brings it all together at the LLM scale.
+Run notebooks in sequence: **NB01 → NB02 → NB03 → NB04 → NB05 → NB06**. NB01 builds the conceptual foundation. NB02 and NB03 introduce the `Trainer` API at manageable scale. NB04 rounds out generation theory. NB05 brings it all together with LoRA fine-tuning of a real LLM. NB06 shows the managed API alternative as a final contrast — best appreciated after completing the local fine-tuning notebooks.
 
 ### Quick Launch
 
 | Notebook | Open in Colab |
 |---|---|
 | 01 · Transfer Learning Concepts | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/01_transfer_learning.ipynb) |
-| 02a · Sentiment Analysis (BERT) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/02_sentiment_analysis.ipynb) |
-| 02b · OpenAI Fine-Tuning API | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/02_fine_tuning_openai.ipynb) |
+| 02 · Sentiment Analysis (BERT) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/02_sentiment_analysis.ipynb) |
 | 03 · Text Summarization (T5) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/03_summarization.ipynb) |
 | 04 · Sampling Techniques | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/04_sampling_techniques.ipynb) |
 | 05 · LLM Fine-Tuning with LoRA | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/05_Fine_Tuning_LLM_Healthcare.ipynb) |
+| 06 · OpenAI Fine-Tuning API | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/06_fine_tuning_openai.ipynb) |

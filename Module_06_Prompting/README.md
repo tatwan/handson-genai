@@ -159,6 +159,8 @@ By the end of this module you will be able to:
 
 > **Key Insight:** The ReAct agent is just a conversation with a carefully designed system prompt that teaches the model a specific output format (Thought/Action/PAUSE), combined with a Python loop that parses that format and calls real functions. There is no magic — it is prompt engineering + the tool-calling primitives from NB02 combined into a loop. Every modern agentic framework (LangChain agents, LlamaIndex agents, AutoGen, CrewAI) is a more sophisticated version of exactly this pattern.
 
+> **Framework Note — smolagents vs. LangGraph:** The course outline mentions both `smolagents` (by HuggingFace) and `LangGraph` (by LangChain) as options for the agentic lab. We use **LangGraph** because it integrates naturally with the LangChain ecosystem you've already set up, supports graph-based agent orchestration (useful for multi-agent patterns in production), and has first-class support for persistence and human-in-the-loop. **smolagents** is a lighter-weight library from HuggingFace that follows the same ReAct principles — if you're already using HuggingFace models exclusively, it's worth exploring at [huggingface.co/docs/smolagents](https://huggingface.co/docs/smolagents).
+
 ---
 
 ## The Conceptual Thread
