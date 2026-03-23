@@ -104,32 +104,6 @@ By the end of this module you will be able to:
 
 ---
 
-### 📓 06 · OpenAI Fine-Tuning API
-
-**File:** `06_fine_tuning_openai.ipynb`
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/06_fine_tuning_openai.ipynb)
-
-**Concepts covered:**
-- OpenAI's managed fine-tuning API: how it differs from local fine-tuning (you upload data, OpenAI trains)
-- JSONL fine-tuning format: the `{"messages": [...]}` structure with `system`/`user`/`assistant` roles
-- Dataset preparation: parsing HuggingFace conversation datasets (`[|Human|]`/`[|AI|]` format) into OpenAI format
-- Train/validation split for fine-tuning: detecting overfitting during the job
-- API lifecycle: `files.create()` → `fine_tuning.jobs.create()` → `jobs.retrieve()` → inference
-- Evaluating a fine-tuned model: base model vs. fine-tuned model comparison on held-out examples
-- Cleanup: deleting uploaded files and fine-tuned model endpoints to avoid ongoing costs
-
-**Lab builds:**
-- `Mohammed-Altaf/medical-instruction-120k` dataset loaded from HuggingFace (medical QA conversations)
-- `convert_hf_conversation_to_openai()` parser handling the `[|Human|]`/`[|AI|]` conversation format
-- 100-example subset formatted into JSONL: 90 train / 10 validation
-- Full API workflow: upload files, create `gpt-3.5-turbo-0125` fine-tuning job, monitor status
-- Side-by-side comparison: base model response vs. fine-tuned model response on held-out medical question
-- Cleanup cell: `client.models.delete()` and `client.files.delete()` to manage costs
-
-> **Key Insight:** The OpenAI fine-tuning API abstracts away all the infrastructure complexity — you never see a GPU or a training loop. The trade-off is that you cannot inspect the model internals, adjust hyperparameters beyond what the API exposes, or use it without billing. By placing this notebook last (NB06), you can appreciate the trade-offs after experiencing local fine-tuning hands-on — making this a contrast, not a shortcut.
-
----
-
 ### 📓 03 · Text Summarization with T5
 
 **File:** `03_summarization.ipynb`
@@ -219,6 +193,31 @@ By the end of this module you will be able to:
 - Full GGUF export and Ollama deployment guide: llama.cpp conversion, quantization, Modelfile, `ollama create`
 
 > **Key Insight:** LoRA's elegance is that the original model weights are *never modified*. The adapter matrices are added on top, trained, and can be swapped out. This means you can maintain one base model on disk and dozens of specialized adapters, each a few megabytes. The `get_peft_model()` call in training and the `PeftModel.from_pretrained()` call in inference are mirror operations — understanding both makes you able to productionize LoRA-based models confidently.
+
+---
+### 📓 06 · OpenAI Fine-Tuning API
+
+**File:** `06_fine_tuning_openai.ipynb`
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/tatwan/handson-genai/blob/main/Module_08_Fine_Tuning/06_fine_tuning_openai.ipynb)
+
+**Concepts covered:**
+- OpenAI's managed fine-tuning API: how it differs from local fine-tuning (you upload data, OpenAI trains)
+- JSONL fine-tuning format: the `{"messages": [...]}` structure with `system`/`user`/`assistant` roles
+- Dataset preparation: parsing HuggingFace conversation datasets (`[|Human|]`/`[|AI|]` format) into OpenAI format
+- Train/validation split for fine-tuning: detecting overfitting during the job
+- API lifecycle: `files.create()` → `fine_tuning.jobs.create()` → `jobs.retrieve()` → inference
+- Evaluating a fine-tuned model: base model vs. fine-tuned model comparison on held-out examples
+- Cleanup: deleting uploaded files and fine-tuned model endpoints to avoid ongoing costs
+
+**Lab builds:**
+- `Mohammed-Altaf/medical-instruction-120k` dataset loaded from HuggingFace (medical QA conversations)
+- `convert_hf_conversation_to_openai()` parser handling the `[|Human|]`/`[|AI|]` conversation format
+- 100-example subset formatted into JSONL: 90 train / 10 validation
+- Full API workflow: upload files, create `gpt-3.5-turbo-0125` fine-tuning job, monitor status
+- Side-by-side comparison: base model response vs. fine-tuned model response on held-out medical question
+- Cleanup cell: `client.models.delete()` and `client.files.delete()` to manage costs
+
+> **Key Insight:** The OpenAI fine-tuning API abstracts away all the infrastructure complexity — you never see a GPU or a training loop. The trade-off is that you cannot inspect the model internals, adjust hyperparameters beyond what the API exposes, or use it without billing. By placing this notebook last (NB06), you can appreciate the trade-offs after experiencing local fine-tuning hands-on — making this a contrast, not a shortcut.
 
 ---
 
