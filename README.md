@@ -1,4 +1,4 @@
-![Hands-On Generative AI Course Banner](images/Hands-On Generative AI Course Banner.png)
+![Hands-On Generative AI Course Banner](images/handson_genai_v2.png)
 
 # Hands-On Generative Artificial Intelligence
 
