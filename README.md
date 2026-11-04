@@ -1,6 +1,6 @@
-# Hands-On Generative Artificial Intelligence
+![Hands-On Generative AI Course Banner](images/Hands-On Generative AI Course Banner.png)
 
-<img src="images/Gemini_Generated_Image_7q6ku87q6ku87q6k.png" alt="Gemini_Generated_Image_7q6ku87q6ku87q6k" style="zoom:50%;" />
+# Hands-On Generative Artificial Intelligence
 
 ## Getting Started
 
@@ -273,9 +273,3 @@ By the end of this course, you will be able to:
 • **Modern Tools:** Work with 2026 industry-standard frameworks  
 • **Complete Lifecycle:** From model selection to production deployment  
 • **Real-World Projects:** Build a complete RAG-based dialogue system
-
----
-
-## Archived Content
-
-Previous demos and labs are available in the `_archive/` folder for reference.
